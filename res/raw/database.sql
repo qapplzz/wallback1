@@ -1,0 +1,6 @@
+CREATE TABLE friends (
+	'_id' INTEGER PRIMARY KEY AUTOINCREMENT,
+	'contact_id' INTEGER NOT NULL,
+	'name' TEXT NOT NULL, 
+	'has_picture' INTEGER DEFAULT 0
+);

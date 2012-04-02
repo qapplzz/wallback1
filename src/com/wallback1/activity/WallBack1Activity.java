@@ -10,16 +10,7 @@ public class WallBack1Activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Intent intent = null;
-		if (isFirst()) {
-			intent = new Intent(this, InfoInputActivity.class);
-		} else {
-			intent = new Intent(this, LoveMainActivity.class);
-		}
+		intent = new Intent(this, ContactListActivity.class);
 		startActivity(intent);
 	}
-
-	private boolean isFirst() {
-		return true;
-	}
-
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ListView
+        android:id="@id/android:list"
+        style="@style/List"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+   	<LinearLayout 
+   	    android:id="@+id/addContact"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:visibility="gone">
+   	    
+   	    <ImageView 
+   	        android:id="@+id/addContactImg"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:background="@drawable/ic_title_home"/>
+   	    <TextView 
+   	        android:id="@+id/addContactText"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:layout_gravity="center"
+   	        android:text="친구를 추가해주세요"/>
+   	</LinearLayout>
+
+</RelativeLayout>

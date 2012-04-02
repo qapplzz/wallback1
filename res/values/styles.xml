@@ -54,7 +54,7 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:scaleType">center</item>
         <item name="android:background">@drawable/actionbar_compat_button</item>
-    </style> 
+    </style>
 
     <style name="ActionBarCompatProgressIndicator" parent="android:style/Widget.ProgressBar.Small">
         <item name="android:indeterminate">true</item>
@@ -208,6 +208,16 @@
         <item name="android:lineSpacingMultiplier">1.1</item>
         <item name="android:textColor">@color/body_text_1</item>
         <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="List">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:listSelector">#FFFFFF00</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:dividerHeight">0px</item>
     </style>
 
 </resources>
